@@ -9,7 +9,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: dimgray;
+    background-color: #1b1b35;
 }
 
 #wrap-1{
@@ -33,7 +33,7 @@ body{
     flex-direction: column;
     flex-basis: 88%;
 
-    background-color: cornflowerblue;
+    background-color: #1b1b35;
 }
 
 #logo{
