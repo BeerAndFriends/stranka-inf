@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: dimgray;
+}
+
+#wrap-1{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+
+}
+
+#lavy-div{
+    display: flex;
+    flex-direction: column;
+    flex-basis:12%;
+
+
+    background-color: #1b1b35;
+}
+
+#pravy-div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 88%;
+
+    background-color: cornflowerblue;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+
+    min-height: 10%;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1b1b35;
+    
+
+}
+
+#panel{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 90%;
+    width: 100%;
+    
+}
+
+#nazov{
+    display: flex;
+    flex-direction: row;
+
+    width:100%;
+    min-height: 10%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1b1b35;
+    color:white;
+}
+
+
+#panel a{
+    font-size: 22px;
+    background-color:#53298f;
+    padding: 6px 10px 6px 10px;
+    margin-bottom: 5px;
+    color: white;
+
+    transition: all 30ms linear;
+}
+
+#panel a.active{
+    background-color: #852eff;
+    transform: scale(1.05);
+    box-shadow: 0 0px 5px 0px #852eff;
+}
+#panel a:hover{
+    background-color: #852eff;
+    transform: scale(1.05);
+    box-shadow: 0 0px 5px 0px #852eff;
+}
+
+
+#logo-obr{
+    width: 100%;
+    height: 100%;
+    filter: invert(1);
+}
+
+#wrap-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 90%;
+
+}
+
+#stranka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #090921;
+    color: white;
+    min-height: 90%;
+}
+#stranka-box-1{
+    display: flex;
+    flex-direction: row;
+
+
+}
+#stranka-pod-1{
+    margin: 12px 0px 12px;
+    font-size: 30px;
+    text-align: center;
+}
+#stranka-text-1{
+    font-size: 18px;
+    margin:15px;
+    text-align: center;
+}
+#stranka-uvodny-1{
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid #090921;
+}
+#stranka-box-2{
+    display: flex;
+    flex-direction: row;
+}
+#stranka-pod-2{
+    font-size: 30px;
+    margin : 12px 0px 12px;
+    text-align: center;
+}
+#stranka-text-2{
+    font-size: 18px;
+    text-align: center;
+    margin:15px;
+}
+#stranka-uvodny-2{
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid #090921;    
+}
+
+
+#stranka-recenzie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width:100%;
+    height: 100%;
+    justify-content: space-around;
+    background-color: #090921;
+
+}
+.recenzia{
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1b35;
+    flex-basis:48%;
+
+    margin-top:1%;
+    margin-bottom: 1%;
+    transition: all .2s linear;
+
+    border: 1px solid #10102a;
+    border-radius: 10px;
+}
+.recenzia:hover {
+    border-color: white;
+    transform: scale(1.01);
+    background-color: #090921;
+    box-shadow: 0 0px 5px 0px white;
+}
+.r-nadpis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items:center;
+
+    width:100%;
+    min-height: 20%;
+    color: white;
+}
+.r-user{
+    filter: invert(0.5);
+    padding-left:10px;
+}
+.r-meno{
+    display: flex;
+    flex-direction: row;
+
+
+    align-items: center;
+    font-size: 24px;
+    padding: 10px;
+}
+.r-star{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding-right: 10px;
+
+}
+.r-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    min-height: 80%;
+    padding:10px;
+
+    color:white;
+    font-size: 20px;
+}
+
+
+#stranka-kontakt{
+    display: flex;
+    flex-direction: column;
+
+    width:100%;
+    min-height: 90%;
+
+
+    text-align: center;
+    align-items: center;
+    background-color: #090921;
+    color:white;
+    
+}
+#wrap-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    min-height: 30%;
+}
+.kontakt-udaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#kontakt-linky{
+    display: flex;
+    flex-direction: row;
+}
+.kontakt-link{
+    margin: 10px;
+    transition: all 30ms linear;
+}
+.kontakt-link:hover{
+    transform: scale(1.3);
+
+}
+
+.pole{
+    background-color: #1b1b35;
+    margin: 10px;
+    padding:15px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+#stranka-foto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90%;
+    align-items: center;
+
+    background-color: #10102a;
+    color: white;
+    padding: 2%;
+}
+.fotka{
+    margin:15px;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: all 50ms linear;
+}
+.fotka:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0px 5px 0px white;
+}
+
+
+#stranka-cennik{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+
+    background-color: #10102a;
+    color: white;
+
+    align-items: center;    
+}
+#cennik-box{
+    display: flex;
+    flex-direction: row;
+}
+.cena{
+    padding: 5px;
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 22px;
+}
+#cennik-obr-1{
+    margin:15px;
+    border-radius: 10px;
+    border: 1px solid #090921;
+}
+
+
+#copyright-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 150px;
+    background-color: black;
+}
